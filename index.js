@@ -6,9 +6,6 @@ function init() {
 }
 init();
 
-// 구축한 방법
-// npm init : package.json(프로젝트 정보 저장)
-// npm i eslint@7 ~~ : 필요한 모듈 설치
-// eslintrc.json, prettierrc 설정 파일 추가
-
-// cypress.io 추가한 환경 구축 **
+// eslint, prettier가 잘 세팅됐다면, 아래와 같은 에러가 뜰 것이다. 
+// 'NEVER_USED' is assigned a value but never used.eslintno-unused-vars 
+// Identifier 'not_camel' is not in camel case.eslintcamelcase 
