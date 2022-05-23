@@ -26,6 +26,9 @@ git branch -a
 # eslint-prettier이 세팅된 branch를 로컬에 생성해 이동합니다
 git checkout -t origin/eslint-prettier
 
+# 이용할 프로젝트로 복사합니다(맥 터미널 기준) 
+cp -R template my-project(이용할 프로젝트 이름)
+
 # 필요한 모듈을 다운받아요
 npm i
 
